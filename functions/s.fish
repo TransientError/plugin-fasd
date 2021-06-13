@@ -1,3 +1,3 @@
 function s -d "show / search / select"
-  command fasd -si $argv
+  command fasd -s -l $argv | sk
 end

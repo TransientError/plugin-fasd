@@ -1,3 +1,3 @@
 function sd -d "interactive directory selection"
-  command fasd -sid $argv
+  command fasd -d -s $argv | sk | choose 1
 end
